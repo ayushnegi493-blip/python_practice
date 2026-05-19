@@ -1,0 +1,37 @@
+#print("Welcome to the Temple of Decisions")
+# choose1=input('What do you need "fire" or "water"')
+# if choose1== "fire":
+#     choose2= input('"do you need to take armor "yes" or "no"')
+#     if choose2== "yes":
+#         print("left door or right door")
+#     else:
+#         print("burned alive. GAME OVER")
+# elif choose1== "water":
+#     choose3= input('do you know how to swim."yes" or "no"')
+#     if choose3== "yes":
+#     print("you cross the river safely")
+# else:
+#   print("Drowned.GAME OVER")
+#     else:
+#   print("you enter wrong input")
+
+print("Welcome to the Temple of Decisions")
+
+choose1 = input("What do you need 'fire' or 'water' ").lower()
+
+if choose1 == "fire":
+    choose2 = input("do you need to take armor 'yes' or 'no' ").lower()
+    if choose2 == "yes":
+        print("left door or right door")
+    else:
+        print("burned alive. GAME OVER")
+
+elif choose1 == "water":
+    choose3 = input("do you know how to swim 'yes' or 'no' ").lower()
+    if choose3 == "yes":
+        print("you cross the river safely")
+    else:
+        print("Drowned. GAME OVER")
+
+else:
+    print("Invalid choice. GAME OVER")
