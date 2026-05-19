@@ -207,7 +207,7 @@ while True:
             total= total + i["Fee"]
         print("Total fee Collected", total)
 
-    elif(choice==4):
+    elif(choice==4): 
         print("Thanks to join our Membership")
         break
     else:
