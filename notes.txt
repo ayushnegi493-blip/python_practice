@@ -1,0 +1,3 @@
+NAME= Ayush Negi
+Marks= 700/900
+Course= Master of Computer Applications
