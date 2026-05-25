@@ -43,16 +43,19 @@
 #     print("Data file",data)
 
 
-with open("notes.txt","r") as f:
-    data= f.read()
-    data= data.lower()
-    print("Data file->",data)
+# with open("notes.txt","r") as f:
+#     data= f.read()
+#     data= data.lower()
+#     print("Data file->",data)
 
-    if "master" in data:
-        print("yes available")
+#     if "master" in data:
+#         print("yes available")
 
-    else:
-        print("not available")
+#     else:
+#         print("not available")
+
+
+
 
 
 
